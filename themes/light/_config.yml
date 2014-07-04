@@ -1,6 +1,7 @@
 menu:
   Home: /
   Archives: /archives
+  About: /about
 
 widgets:
 - search
@@ -15,7 +16,7 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid:
   facebook: true
   twitter: true
@@ -27,10 +28,17 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider: facebook
+comment_provider: disqus
 # Facebook comment
 facebook:
   appid: 123456789012345
   comment_count: 5
   comment_width: 840
   comment_colorscheme: light
+
+# Disqus
+disqus_shortname: amantely
+
+#baidushare
+baidushare:
+  enable: true
